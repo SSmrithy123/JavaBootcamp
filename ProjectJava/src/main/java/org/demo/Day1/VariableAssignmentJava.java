@@ -2,7 +2,7 @@ package org.demo.Day1;
 
 
 
-public class VariableAssignmentJavaActivity1 {
+public class VariableAssignmentJava {
    //main method
     public static void main(String[] args) {
         //intializing variable

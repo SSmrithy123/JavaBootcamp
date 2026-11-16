@@ -1,6 +1,6 @@
 package org.demo.Day1;
 
-public class FindLargestActivity3 {
+public class FindLargest {
     public static void main(String[] args) {
 
 

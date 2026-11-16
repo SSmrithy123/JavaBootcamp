@@ -1,6 +1,6 @@
 package org.demo.Day1;
 
-public class OperatorActivity2 {
+public class OperatorActivity {
 
 
     public static void main(String[] args) {

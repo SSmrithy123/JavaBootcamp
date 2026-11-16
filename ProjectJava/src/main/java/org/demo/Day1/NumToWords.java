@@ -1,6 +1,6 @@
 package org.demo.Day1;
 
-public class NumToWordsActivity4 {
+public class NumToWords {
     public static void main(String[] args) {
         //declaring variable (number to test)
         int num=5;
