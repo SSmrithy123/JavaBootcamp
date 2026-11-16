@@ -5,7 +5,7 @@ public class FindLargestActivity3 {
 
 
     int num1=10;
-    int num2=20;
+    int num2=30;
     //using if else for checking the largest number
     if (num1 > num2) {
 
