@@ -1,6 +1,6 @@
-package module10.Activities;
+package module10.Activity1;
 
-public class Employee extends Person{
+public class Employee extends Person {
     // Employee-specific attributes
     private String jobTitle; // Job title
     private String company; // Company name
@@ -29,31 +29,31 @@ public class Employee extends Person{
         this.jobTitle = jobTitle; // Update job title
     }
 
-    // Getter for company[cite: 4]
+    // Getter for company
     public String getCompany() {
         return company; // Return company name[cite: 4]
     }
 
-    // Setter for company[cite: 4]
+    // Setter for company
     public void setCompany(String company) {
         this.company = company; // Update company name[cite: 4]
     }
 
-    // Getter for salary[cite: 4]
+    // Getter for salary
     public double getSalary() {
-        return salary; // Return salary[cite: 4]
+        return salary; // Return salary
     }
 
     // Setter for salary
     public void setSalary(double salary) {
-        this.salary = salary; // Update salary[cite: 4]
+        this.salary = salary;
     }
 
     // Override introduce method from Person
     @Override
-    public void introduce() { // Print employee introduction[cite: 4]
-        System.out.println("My name is " + getName() + " and i am " + getAge() + " years old"); // Print name and age[cite: 1, 4]
-        System.out.println("I am work as " + jobTitle + " in " + company + " and my salary is " + salary); // Print job, company, and salary[cite: 4]
+    public void introduce() { // Print employee introduction
+        System.out.println("My name is " + getName() + " and i am " + getAge() + " years old"); // Print name and age
+        System.out.println("I am work as " + jobTitle + " in " + company + " and my salary is " + salary); // Print job, company, and salary
     }
 
 }
