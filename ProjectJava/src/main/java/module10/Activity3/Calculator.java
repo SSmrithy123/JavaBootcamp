@@ -1,4 +1,4 @@
-package module10.Activity2;
+package module10.Activity3;
 
 public class Calculator {
     // 3.1.1 First add method (2 parameters)

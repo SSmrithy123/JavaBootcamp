@@ -1,4 +1,4 @@
-package module10.Activity2;
+package module10.Activity3;
 
 import org.junit.Assert;
 import org.junit.Test;
