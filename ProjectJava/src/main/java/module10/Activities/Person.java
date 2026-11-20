@@ -1,4 +1,4 @@
-package module10.Activity1;
+package module10.Activities;
 //created abstract class using abstract keyword
 //Abstract base class representing a person.
 public abstract class Person {
@@ -27,7 +27,7 @@ public abstract class Person {
     public abstract void introduce();
 
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         // Create a Student object referenced as Person
         Person student = new Student();
         // Set values using inherited setter methods
@@ -35,6 +35,6 @@ public abstract class Person {
         student.setAge(31);
         // Call the introduce() implementation
         student.introduce();
-    }
+    }*/
 
 }
