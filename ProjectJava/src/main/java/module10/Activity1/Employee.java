@@ -1,5 +1,7 @@
 package module10.Activity1;
 
+import java.util.List;
+
 public class Employee extends Person {
     // Employee-specific attributes
     private String jobTitle; // Job title
@@ -31,12 +33,12 @@ public class Employee extends Person {
 
     // Getter for company
     public String getCompany() {
-        return company; // Return company name[cite: 4]
+        return company; // Return company name
     }
 
     // Setter for company
     public void setCompany(String company) {
-        this.company = company; // Update company name[cite: 4]
+        this.company = company; // Update company name
     }
 
     // Getter for salary
@@ -48,7 +50,20 @@ public class Employee extends Person {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+    // Return the name of the employee with the highest salary from the list
+    public static String getHighestPaidEmp(List<Employee> empList) { // Find highest paid employee name
+        if (empList == null || empList.isEmpty()) {
+            return "None"; // Return  if list has no employees
+        }
 
+        Employee highestPaid = empList.get(0); // Assume first employee has highest salary initially
+        for (Employee emp : empList) { // Loop through every employee in the list
+            if (emp.getSalary() > highestPaid.getSalary()) { // Compare current employee salary with highest found
+                highestPaid = emp; // Update highestPaid
+            }
+        } // End of loop
+        return highestPaid.getName(); // Return inherited name of highest-paid employee
+    }
     // Override introduce method from Person
     @Override
     public void introduce() { // Print employee introduction
